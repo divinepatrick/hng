@@ -8,3 +8,6 @@ function updateTime() {
 
 // Initial update
 updateTime();
+
+// Update every second
+setInterval(updateTime, 1000);
