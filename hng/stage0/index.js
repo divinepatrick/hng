@@ -1,4 +1,4 @@
-// Update time on page load
+// Update time once page loads
 function updateTime() {
   const timeElement = document.querySelector('[data-testid="test-user-time"]');
   if (timeElement) {
@@ -8,6 +8,3 @@ function updateTime() {
 
 // Initial update
 updateTime();
-
-// Optional: Update every second
-setInterval(updateTime, 1000);
