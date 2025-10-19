@@ -41,8 +41,8 @@ All elements include `data-testid` attributes for automated testing compatibilit
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/divinepatrick/profile-card.git
-   cd profile-card
+   git clone https://github.com/divinepatrick/hng.git
+   cd stage0
 ```
 
 2. **Open in browser**
