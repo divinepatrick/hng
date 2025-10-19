@@ -79,5 +79,5 @@ data-testid="test-user-dislikes"
 ## 👤 Author
 
 **Divine Patrick**
-- GitHub: [@yourusername](https://github.com/divinepatrick)
-- LinkedIn: [Your Profile](https://linkedin.com/in/divinepatrick)
+- GitHub: [@Divine Patrick](https://github.com/divinepatrick)
+- LinkedIn: [Divine Patrick](https://linkedin.com/in/divinepatrick)
