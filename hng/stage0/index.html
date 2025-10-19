@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <article class="profile-card" data-testid="test-profile-card">
+            <header class="profile-header">
+                <figure class="avatar-container">
+                    <img 
+                        src="./assets/my photo.jpg" 
+                        alt="Divine Patrick" 
+                        class="avatar"
+                        data-testid="test-user-avatar"
+                    >
+                    <figcaption class="visually-hidden">User avatar</figcaption>
+                </figure>
+                
+                <div class="profile-info">
+                    <h2 class="user-name" data-testid="test-user-name">John Doe</h2>
+                    <p class="user-bio" data-testid="test-user-bio">
+                        FullStack developer passionate about creating accessible, responsive and Scalable web applications. 
+                        I Love coding- Kinda, Watching Podcasts, and Reading Substack Articles.
+                    </p>
+                    
+                    <div class="current-time" data-testid="test-user-time"></div>
+                </div>
+            </header>
+
+            <nav class="social-links" aria-label="Social media links">
+                <ul data-testid="test-user-social-links">
+                    <li>
+                        <a 
+                            href="https://twitter.com/johndoe" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            data-testid="test-user-social-twitter"
+                        >
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="https://github.com/johndoe" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            data-testid="test-user-social-github"
+                        >
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="https://linkedin.com/in/johndoe" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            data-testid="test-user-social-linkedin"
+                        >
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="interests-section">
+                <div class="hobbies-container">
+                    <h3>Hobbies</h3>
+                    <ul class="hobbies-list" data-testid="test-user-hobbies">
+                        <li>Photography</li>
+                        <li>Hiking</li>
+                        <li>Reading</li>
+                        <li>Cooking</li>
+                        <li>Playing guitar</li>
+                    </ul>
+                </div>
+
+                <div class="dislikes-container">
+                    <h3>Dislikes</h3>
+                    <ul class="dislikes-list" data-testid="test-user-dislikes">
+                        <li>Loud noises</li>
+                        <li>Being late</li>
+                        <li>Spicy food</li>
+                        <li>Cold coffee</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
